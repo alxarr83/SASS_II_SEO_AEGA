@@ -1,0 +1,120 @@
+@import "_commonsSASS";
+
+.add__WA{
+	text-align: center;
+    width: 100%;
+	background-color: #27af2e;
+    color:  white;
+    font-size: 2.25rem;
+    
+	/*padding*/
+	padding: 4px 0;
+    font-weight: 800   
+}
+
+.buttons {
+    background-color: $firstColor;
+    /*position*/
+    position: sticky;
+    top: 0;
+    /*padding*/
+    padding: 10px 30px;
+    /****display flex *****/
+    /* --- NAV EN COLUMNA EN MOBILE --- */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+	justify-content: right;
+}
+
+.buttons img{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.buttons ul{
+    /****display flex****/
+    display: flex;
+}
+
+.buttons ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+    .buttons ul li a{
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: rgba(135, 188, 196, 0.966)
+    }
+
+    /*hover*/
+    .buttons ul li a:hover{
+        color: black;
+        font-weight: 600;
+    }
+
+.encabezado__img--fluid{
+	/*size*/
+	width: 100%;
+} 
+
+
+
+body {
+    background-image: url(../img/circuit.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/*Main*/
+
+main ul li{
+    list-style: disc;
+    color: rgb(200, 219, 190);
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.25rem;
+    margin-left: 30px;
+}
+
+/*main section p{
+   // color: rgb(200, 219, 190);
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.2rem;
+    font-weight: 800;
+}*/
+.text_p1{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:$firstColor;
+    font-size: $textBig;
+}
+
+
+h1{
+
+    @extend .text_p1;
+   
+    
+}
+
+h2{
+    @extend .text_p1;
+    color: $thirdColor;
+    font-size: 3.8rem;
+}
+
+h3{
+    @extend .text_p1;
+    color: $thirdColor;
+    font-size: 3rem;
+}
+
+p{
+    @extend .text_p1;
+	color:#e8f3f3;
+	line-height: 2rem;
+	font-size: 1.6rem;
+    
+}

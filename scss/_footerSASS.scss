@@ -1,0 +1,19 @@
+.foot{
+	/*padding*/
+	padding:30px;
+	/****display flex ****/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+
+.foot__icon--sm{
+	/*size*/
+	width: 60px;
+}
+
+.foot__titulo--md{
+	font-size: 2rem;
+}
